@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&family=Rubik+Doodle+Shadow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 90vh;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 550px;
+  min-height: 470px;
+  margin: 2rem auto;
+  border: 2px solid white;
+}
+
+.heading {
+  margin: 0rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #7743db;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.sub-container {
+  width: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.form-elements {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-elements label,
+span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form-elements input {
+  font-size: inherit;
+  padding: 5px;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.dob-class,
+.gender-class {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dob-class input {
+  margin-left: 4.3rem;
+}
+
+.gender-class div {
+  margin-left: 6rem;
+}
+
+#btnSubmit,
+#btnReset {
+  padding: 0.7rem 1rem;
+  width: 60vw;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#btnSubmit {
+  opacity: 0.8;
+  background-color: green;
+}
+
+#btnReset {
+  background-color: crimson;
+  opacity: 0.8;
+}
+
+#btnSubmit:hover,
+#btnReset:hover {
+  opacity: 1;
+}
+
+#btnSubmit2,
+#btnReset2 {
+  padding: 0.7rem 1rem;
+  width: 60vw;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 0.7rem 1rem;
+  min-width: 5vw;
+  margin: 0.2rem auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#btnSubmit2 {
+  opacity: 0.8;
+  background-color: green;
+}
+
+#btnReset2,
+.btn {
+  background-color: crimson;
+  opacity: 0.8;
+}
+
+#btnSubmit2:hover,
+#btnReset2:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+#productImg {
+  margin-left: 6.7rem;
+  border: none;
+}
+
+.container-details {
+  width: 80vw;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.cust_table,
+.prod_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cust_table tr > th,
+.prod_table tr > th {
+  margin: 1rem;
+  padding: 0.5rem;
+  color: #ffc436;
+  font-size: 1.3rem;
+  border-bottom: 2px solid white;
+}
+
+.cust_table tr > td,
+.prod_table tr > td {
+  margin: 1rem;
+  padding: 0.5rem;
+  color: #f7efe5;
+  border-bottom: 2px solid white;
+}
+
+.cust_table tr,
+.prod_table tr {
+  width: 100%;
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.card-container {
+  width: 100%;
+  min-height: 400px;
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid white;
+  width: 30%;
+  height: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+  box-shadow: 0px 0px 15px white;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem auto;
+  letter-spacing: 3px;
+  font-family: "Rubik Doodle Shadow";
+}
+
+.card-img {
+  width: 70%;
+  height: 350px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+
+.card-body div {
+  margin-top: 0.6rem;
+}/*# sourceMappingURL=index.css.map */
