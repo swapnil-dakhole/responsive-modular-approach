@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cusomter Form</title>
+
+    <script src="../Javascript/plugins/all_cdn.js"></script>
+    <link rel="stylesheet" href="../SCSS/index.css" />
+  </head>
+  <body>
+    <div class="container card text-dark" style="width: 45%">
+      <div class="heading">Customer Form</div>
+      <div class="sub-container">
+        <div>
+          <div class="form-elements">
+            <label for="customerName">Customer Name </label>
+            <input
+              type="text"
+              name="cname"
+              id="customerName"
+              placeholder="Enter Name"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="customerEmail">Customer Email </label>
+            <input
+              type="email"
+              name="cemail"
+              id="customerEmail"
+              placeholder="Enter Email"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="customerNumber">Contact Number </label>
+            <input
+              type="number"
+              name="cnumber"
+              id="customerNumber"
+              placeholder="Enter Number"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements dob-class">
+            <label for="customerDOB">Date of Birth </label>
+            <input
+              type="date"
+              name="cDOB"
+              id="customerDOB"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements gender-class">
+            <span>Gender </span>
+            <div>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+          <div class="form-elements">
+            <label for="customerAddress">Address </label>
+            <textarea
+              name="address"
+              id="customerAddress"
+              cols="30"
+              rows="5"
+              class="p-2"
+              autocomplete="Hell"
+            ></textarea>
+          </div>
+          <div class="form-elements">
+            <button class="btnSubmit" id="btnSubmit" type="submit">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="../Javascript/controller/add_customer.js"
+      type="module"
+    ></script>
+  </body>
+</html>

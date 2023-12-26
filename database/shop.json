@@ -1,0 +1,88 @@
+{
+  "customers": [
+    {
+      "_customerName": "Swapnil",
+      "_customerEmail": "Swapnild@gsj",
+      "_customerDOB": "2023-12-15",
+      "_customerGender": "male",
+      "_customerAddress": "sdf",
+      "_customerNumber": "12",
+      "id": 1
+    },
+    {
+      "_customerName": "Swapnil",
+      "_customerEmail": "Swapnild@gsj",
+      "_customerDOB": "2023-12-06",
+      "_customerGender": "male",
+      "_customerAddress": "fgdjdjfdgj",
+      "_customerNumber": "45645",
+      "id": 2
+    },
+    {
+      "_customerName": "Yash",
+      "_customerEmail": "yash@cybage.com",
+      "_customerDOB": "2023-12-15",
+      "_customerGender": "male",
+      "_customerAddress": "Pune",
+      "_customerNumber": "7832957345",
+      "id": 3
+    },
+    {
+      "_customerName": "Nehal",
+      "_customerEmail": "nehal@gmail.com",
+      "_customerDOB": "2023-12-15",
+      "_customerGender": "male",
+      "_customerAddress": "Nagpur",
+      "_customerNumber": "9921884457",
+      "id": 4
+    },
+    {
+      "_customerName": "Anirudh",
+      "_customerEmail": "anirudh@gmail.com",
+      "_customerDOB": "2023-12-01",
+      "_customerGender": "male",
+      "_customerAddress": "Nagpur",
+      "_customerNumber": "820872245",
+      "id": 6
+    },
+    {
+      "_customerName": "Ms .X",
+      "_customerEmail": "x@cybage.com",
+      "_customerDOB": "2023-01-02",
+      "_customerGender": "female",
+      "_customerAddress": "Pune",
+      "_customerNumber": "23845683456",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "_productName": "Swapnil",
+      "_brandName": "Dakhole",
+      "_productPrice": "2000",
+      "_productAvail": "1",
+      "_productImg": "C:\\fakepath\\Base2.png",
+      "_productDescrip": "Bhau Dakhole",
+      "id": 1
+    },
+    {
+      "_productName": "Nehal",
+      "_brandName": "Bhabhi",
+      "_productPrice": "18000",
+      "_productAvail": "3",
+      "_productImg": "C:\\fakepath\\Image.png",
+      "_productDescrip": "                                New Bhabhi 4 waiting .\n                \n                \n                \n                ",
+      "id": 2
+    },
+    {
+      "_productName": "Rohit",
+      "_brandName": "Sharma",
+      "_productPrice": "15",
+      "_productAvail": "1",
+      "_productImg": "C:\\fakepath\\-Check-PointExpensesDo Not-Discard.gif",
+      "_productDescrip": "Captian\n                \n                ",
+      "id": 3
+    }
+  ],
+  "orders": []
+}

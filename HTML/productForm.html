@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCT FORM</title>
+
+    <script src="../Javascript/plugins/all_cdn.js"></script>
+    <link rel="stylesheet" href="../SCSS/index.css" />
+  </head>
+  <body>
+    <div class="container card text-dark" style="width: 45%">
+      <div class="heading">Product Form</div>
+      <div class="sub-container">
+        <div>
+          <div class="form-elements">
+            <label for="productName">Product Name </label>
+            <input
+              type="text"
+              name="pname"
+              id="productName"
+              placeholder="Enter Product Name"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="brandName">Brand Name </label>
+            <input
+              type="text"
+              name="bname"
+              id="brandName"
+              placeholder="Enter Brand Name"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="productPrice">Price </label>
+            <input
+              type="number"
+              name="price"
+              id="productPrice"
+              placeholder="Enter Product Price"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="productAvail">Availability </label>
+            <input
+              type="number"
+              name="productAvail"
+              id="productAvail"
+              placeholder="Availability of product"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements img-file">
+            <label for="productImg">Image </label>
+            <input
+              type="file"
+              name="productImg"
+              id="productImg"
+              class="border-bottom border-2 text-dark bg-light"
+            />
+          </div>
+          <div class="form-elements">
+            <label for="productDescrip">Description </label>
+            <textarea
+              name="address"
+              id="productDescrip"
+              cols="30"
+              rows="5"
+              autocomplete="address-level1"
+              class="border-bottom border-2 text-dark bg-light"
+            ></textarea>
+          </div>
+
+          <div class="form-elements">
+            <button class="btnSubmit2" id="btnSubmit2" type="submit">
+              Submit
+            </button>
+            <!-- <input type="submit" value="Submit" id="btnSubmit2" /> -->
+            <!-- <input type="reset" value="Reset" id="btnReset2" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="../Javascript/controller/add_product.js"
+      type="module"
+    ></script>
+  </body>
+</html>
